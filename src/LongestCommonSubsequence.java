@@ -6,6 +6,7 @@ It is a classic computer science problem, the basis of diff (a file comparison p
 Examples:
 LCS for input Sequences “ABCDGH” and “AEDFHR” is “ADH” of length 3.
 LCS for input Sequences “AGGTAB” and “GXTXAYB” is “GTAB” of length 4.
+
  */
 public class LongestCommonSubsequence {
 
@@ -18,6 +19,15 @@ public class LongestCommonSubsequence {
         System.out.print(lcs);
     }
 
+    /*
+    The above problem satisfies two key requirements of Dynamic Programming:
+        1. Overlapping Subproblems :
+               LCS can be divided into subproblems until we arrive at a subproblem with a trivial solution. For eg. the shorter the subsequences, more trivial the
+               solutions.
+        2. Optimal Substructure :
+                The solution of smaller substrings ( their lcs values ) of the strings can be used to calculate the value of the parent strings.
+
+     */
     private static int calculateLongestCommonSubsequence(String adam, String eve) {
         int[][] solTable = new int[adam.length() + 1][eve.length() + 1];
 
