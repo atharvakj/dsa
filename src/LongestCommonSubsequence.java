@@ -27,6 +27,7 @@ public class LongestCommonSubsequence {
         2. Optimal Substructure :
                 The solution of smaller substrings ( their lcs values ) of the strings can be used to calculate the value of the parent strings.
 
+
      */
     private static int calculateLongestCommonSubsequence(String adam, String eve) {
         int[][] solTable = new int[adam.length() + 1][eve.length() + 1];
