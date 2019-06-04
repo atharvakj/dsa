@@ -1,3 +1,5 @@
+package dynamic;
+
 import java.util.Arrays;
 /*
 Given an array of numbers, find the length of the longest increasing subsequence in the array. The subsequence does not necessarily have to be contiguous.
