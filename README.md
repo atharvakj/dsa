@@ -3,7 +3,7 @@ This repository contains the implementation of different application of algorith
 
 ## Techniques:
 * a. Dynamic Programming.
-
+* b. Backtracking.
 
 ## Problems Solved:
 
