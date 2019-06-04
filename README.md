@@ -11,6 +11,7 @@ Problems                          | Techniques Used
 -------------                     | -------------
  Longest Increasing Subsequence   | Dynamic P
  Longest Common Subsequence       | Dynamic P
+ N-Queens Problem                 | Backtracking
  
 
 All the problems are solved using JAVA.
