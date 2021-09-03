@@ -1,4 +1,4 @@
-package dynamic;
+package algorithms.dynamic;
 
 import java.util.Arrays;
 /*

@@ -1,4 +1,4 @@
-package heap;
+package algorithms.heap;
 
 import java.util.Arrays;
 // when would you use heaps? For priority queue implementation.

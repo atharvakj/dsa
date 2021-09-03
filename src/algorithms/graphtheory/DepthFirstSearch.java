@@ -1,4 +1,4 @@
-package graphtheory;
+package algorithms.graphtheory;
 
 import java.util.Arrays;
 import java.util.stream.Stream;
